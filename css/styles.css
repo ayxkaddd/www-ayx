@@ -113,6 +113,10 @@ p img {
 
 .widget:hover {
     opacity: 0.8;
+    width: 225px;
+    height: 195px;
+    transition: 350ms;
+    /* transition: ease-out 350ms; */
     cursor: pointer;
 }
 
