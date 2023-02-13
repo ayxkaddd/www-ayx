@@ -146,6 +146,5 @@ p img {
 .test:hover {
     opacity: 1;
     transform: scale(1.20);
-    transition: 150ms ease-in-out;
-    /* transition: 150ms out; */
+    transition: 400ms;
 }
