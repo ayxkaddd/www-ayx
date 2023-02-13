@@ -18,11 +18,12 @@ html, body {
 
 a, p {
     font-size: 17px;
+    color: whitesmoke
 }
 
-a, h1 {
+a, h1, span {
     text-decoration: none;
-    color: inherit;
+    color: white;
     text-shadow:
         0 0 7px #6a00ff,
         0 0 14px #6a00ff;
@@ -78,7 +79,7 @@ p img {
     grid-auto-flow: column;
 }
 
-.widget-container a {
+.widget-container {
     color: inherit;
 }
 
@@ -100,7 +101,7 @@ p img {
 }
 
 .widget:hover {
-    opacity: 0.6;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -111,7 +112,7 @@ p img {
 }
 
 .neon-box {
-    box-shadow: 0 0 7px #6a00ff;
+    box-shadow: 0 0 4px #6a00ff;
 }
 
 @media only screen and (max-width: 900px) {
