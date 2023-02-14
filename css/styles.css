@@ -149,7 +149,16 @@ p img {
 }
 
 .test:hover {
-    opacity: 1;
+    transform: scale(1.25);
+    transition: 400ms;
+}
+
+.rice {
+    aspect-ratio: 4/2;
+    cursor: pointer;
+}
+
+.rice:hover {
     transform: scale(1.25);
     transition: 400ms;
 }
