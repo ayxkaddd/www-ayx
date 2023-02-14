@@ -142,13 +142,13 @@ p img {
     }
 }
 
-.test {
+.wallpapers {
     width: 29%;
     aspect-ratio: 4/2;
     cursor: pointer;
 }
 
-.test:hover {
+.wallpapers:hover {
     transform: scale(1.25);
     transition: 400ms;
 }
