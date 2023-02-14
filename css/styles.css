@@ -4,7 +4,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    image-rendering: optimizespeed;
+    /* image-rendering: optimizespeed; */
     font-family: MorePeftectDos, 'Courier New', monospace;
     text-align: justify;
     word-break: break-word;
@@ -18,7 +18,7 @@ html, body {
 
 a, p {
     font-size: 17px;
-    color: whitesmoke
+    color: white
 }
 
 a, h1, span {
@@ -145,14 +145,12 @@ p img {
 
 .test {
     width: 29%;
-    /* height: 10%; */
     aspect-ratio: 4/2;
-    /* object-fit: contain; */
     cursor: pointer;
 }
 
 .test:hover {
     opacity: 1;
-    transform: scale(1.20);
+    transform: scale(1.25);
     transition: 400ms;
 }
