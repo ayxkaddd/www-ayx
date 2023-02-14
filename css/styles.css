@@ -154,7 +154,8 @@ p img {
 }
 
 .rice {
-    aspect-ratio: 4/2;
+    height: 65%;
+    width: 95%;
     cursor: pointer;
 }
 
