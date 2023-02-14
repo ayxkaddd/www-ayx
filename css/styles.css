@@ -144,6 +144,10 @@ p img {
 }
 
 .test {
+    width: 25%;
+    /* height: 10%; */
+    aspect-ratio: 4/2;
+    /* object-fit: contain; */
     cursor: pointer;
 }
 
