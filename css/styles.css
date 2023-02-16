@@ -4,7 +4,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* image-rendering: optimizespeed; */
+    image-rendering: optimizespeed;
     font-family: MorePeftectDos, 'Courier New', monospace;
     text-align: justify;
     word-break: break-word;
@@ -151,7 +151,18 @@ p img {
 
 .wallpapers:hover {
     transform: scale(1.25);
+    box-shadow: 0 0 20px black;
     transition: 400ms;
+}
+
+
+.index {
+    height: 60%;
+    width: 50%;
+    /* align-items: center; */
+    /* aspect-ratio: 2/5; */
+    object-fit: contain;
+    /* transform: scale(0.2); */
 }
 
 .rice {
@@ -159,14 +170,6 @@ p img {
     width: 95%;
     cursor: pointer;
     transition: 200ms;
-}
-
-.index {
-    height: 60%;
-    width: 50%;
-    /* aspect-ratio: 2/5; */
-    /* object-fit: contain; */
-    /* transform: scale(0.2); */
 }
 
 .rice:hover {
