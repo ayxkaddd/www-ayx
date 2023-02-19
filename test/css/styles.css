@@ -1,0 +1,87 @@
+html, body {
+    overflow: auto;
+    background-image: url("../../images/wp/bg_20.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: optimizespeed;
+    font-family: Material Design Icons Desktop, 'Courier New', monospace;
+    text-align: justify;
+    word-break: break-word;
+    height: 100%;
+    margin: 0;
+}
+
+.text {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.small_text {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.awesome_font {
+    font-size: 15px;
+    font-family: 'Font Awesome 6 Free Solid', 'Courier New', monospace;
+}
+
+.balls {
+    font-size: 16px;
+}
+
+.bar {
+  background-color: #1f2329;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.bar-launcher {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bar h4 {
+    font-size: 18px;
+    color:#be5046
+}
+
+.bar h1 {
+    margin: 0;
+    color: #708491;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 7px;
+}
+
+.bar p {
+    margin: 0;
+    color: #abb2bf;
+    margin-right: 10px;
+}
+
+.bar a {
+    margin: 0;
+    color: #6C77BB;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.bar h2 {
+    margin-right: 2px;
+}
+
+.bar h3 {
+    margin-right: 370px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
