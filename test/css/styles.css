@@ -17,8 +17,8 @@ html, body {
     background-size: cover;
     image-rendering: optimizespeed;
     font-family: 'MaterialIcons', 'Courier New', monospace;
-    text-align: justify;
-    word-break: break-word;
+    /* text-align: justify; */
+    /* word-break: break-word; */
     height: 100%;
     margin: 0;
 }
@@ -29,6 +29,11 @@ html, body {
 }
 
 .small_text {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ultra_small_text {
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -44,6 +49,15 @@ html, body {
 
 .pointer {
     cursor: pointer;
+}
+
+.bars {
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.bars:hover {
+    opacity: 0.0;
 }
 
 img {
@@ -103,11 +117,15 @@ img {
 }
 
 .bar h3 {
-    margin-right: 363px;
+    margin-right: 380px;
+}
+
+.bar h5 {
+    margin-right: 300px;
 }
 
 .content {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-  }
+}
