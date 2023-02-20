@@ -1,11 +1,22 @@
+@font-face {
+    font-family: 'FontAwesome6';
+    src: url('Font Awesome 6 Free-Solid-900.otf');
+
+}
+
+@font-face {
+    font-family: 'MaterialIcons';
+    src: url('MaterialDesignIconsDesktop.ttf') format('truetype');
+}
+
 html, body {
     overflow: auto;
-    background-image: url("../../images/wp/bg_20.jpg");
+    background-image: url("../../images/wp/wallhaven-1p398w.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: optimizespeed;
-    font-family: Material Design Icons Desktop, 'Courier New', monospace;
+    font-family: 'MaterialIcons', 'Courier New', monospace;
     text-align: justify;
     word-break: break-word;
     height: 100%;
@@ -24,7 +35,7 @@ html, body {
 
 .awesome_font {
     font-size: 15px;
-    font-family: 'Font Awesome 6 Free Solid', 'Courier New', monospace;
+    font-family: 'FontAwesome6', 'Courier New', monospace;
 }
 
 .balls {
@@ -37,13 +48,10 @@ html, body {
 
 img {
     vertical-align: middle;
-    /* text-align: center; */
-    /* aspect-ratio: 2/5; */
-    /* height: 90%; */
-    width: 99%;
+    width: 98%;
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 10px;
 }
 
