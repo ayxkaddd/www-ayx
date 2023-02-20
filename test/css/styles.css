@@ -35,6 +35,18 @@ html, body {
     cursor: pointer;
 }
 
+img {
+    vertical-align: middle;
+    /* text-align: center; */
+    /* aspect-ratio: 2/5; */
+    /* height: 90%; */
+    width: 99%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 .bar {
   background-color: #1f2329;
   height: 25px;
