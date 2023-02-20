@@ -10,14 +10,16 @@
 </head>
 <body>
   <script src="js/script.js"></script>
-    <div class="bar">
+  <div id="container" class="bar">
         <div class="bar-launcher">
           <h1 class="pointer">󰣇</h1>
           <a>󰇙</a>
-          <p class="balls">󰮯 󰑊 󰑊 󰑊 󰑊 󰑊 󰑊 󰑊 󰑊 󰑊</p>
+          <p id="w1" onclick="changeTo1()" class="switch balls pointer">󰮯</p>
+          <p id="w2" onclick="changeTo2()" class="switch balls pointer">󰊠</p> 
+          <p id="w" onclick="changeToEmpty()" class="balls pointer">󰑊 󰑊 󰑊 󰑊 󰑊 󰑊 󰑊 󰑊</p>
           <h3></h3>
           <a>󱂬</a>
-          <p class="text">ayxthefish - Firefox</p>        
+          <p id="title" class="text">ayxthefish - Firefox</p>        
           <h5></h5>
           <p class="awesome_font"></p> 
           <p class="text">Full</p>
@@ -28,11 +30,11 @@
           <p class="awesome_font"></p> <p class="small_text">3%</p> 
           <p id="audio" class="pointer">󰕾</p> <p id="audio_value" class="small_text pointer">25</p>
           <p class="awesome_font"> </p> <p class="small_text">10 K</p>
-          <p id="date" onclick="changeDate()" class="small_text pointer">01:28 am</p>
+          <p id="date" class="small_text pointer">01:28 am</p>
           <a>󰇙</a>
           <h4 class="power pointer">󰐥</h4>
         </div>
       </div>
-      <img src="../images/firefox.png">
+      <img id="body-image" src="../images/firefox.png">
 </body>
 </html>

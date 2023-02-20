@@ -60,6 +60,10 @@ html, body {
     opacity: 0.0;
 }
 
+.switch {
+    transition: 200ms;
+}
+
 img {
     vertical-align: middle;
     width: 98%;
@@ -121,7 +125,7 @@ img {
 }
 
 .bar h5 {
-    margin-right: 300px;
+    margin-right: 380px;
 }
 
 .content {
