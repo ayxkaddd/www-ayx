@@ -17,8 +17,8 @@ html, body {
     background-size: cover;
     image-rendering: optimizespeed;
     font-family: 'MaterialIcons', 'Courier New', monospace;
-    /* text-align: justify; */
-    /* word-break: break-word; */
+    text-align: justify;
+    word-break: break-word;
     height: 100%;
     margin: 0;
 }
@@ -71,6 +71,11 @@ img {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+    position: absolute;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 .bar {
