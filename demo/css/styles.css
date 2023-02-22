@@ -51,15 +51,6 @@ html, body {
     cursor: pointer;
 }
 
-.bars {
-    cursor: pointer;
-    transition: 200ms;
-}
-
-.bars:hover {
-    opacity: 0.0;
-}
-
 .switch {
     transition: 200ms;
 }
@@ -139,4 +130,38 @@ img {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+}
+
+
+.rofi-laucnher {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 650px;
+    width: 340px;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    background-color:#1f2329;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.rofi-laucnher img {
+    height: 320px;
+    width: 100%;
+    margin: auto;
+    top:0%;
+}
+
+
+.rofi-search-bar {
+    /* left: 50%; */
+    /* align-items: center; */
+    height: 50px;
+    width: 50%;
+    background-color: #1f2329;
+    opacity: 0.6;
+    border-radius: 5px;
+    margin: auto;
 }

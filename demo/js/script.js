@@ -18,9 +18,20 @@ function changeAudio()
     }
 }
 
+
+function RofiLauncher()
+{
+    if (document.getElementById("launcher").style.visibility === "visible") {
+        document.getElementById("launcher").style.visibility="hidden";
+    } else { 
+        document.getElementById("launcher").style.visibility="visible"
+    }
+}
+
 function changeTo1()
 {
     document.getElementById("body-image-w2").style.visibility="hidden";
+    document.getElementById("launcher").style.visibility="hidden";
     document.getElementById('w1').innerHTML = "󰮯";
     document.getElementById('w2').innerHTML = "󰊠";
     document.getElementById('title').innerHTML = "ayxthefish - Firefox";
@@ -30,6 +41,7 @@ function changeTo1()
 
 function changeTo2()
 {
+    document.getElementById("launcher").style.visibility="hidden";
     document.getElementById('w1').innerHTML = "󰊠";
     document.getElementById('w2').innerHTML = "󰮯";
     document.getElementById('title').innerHTML = "ayx ~/.config/bspwm";

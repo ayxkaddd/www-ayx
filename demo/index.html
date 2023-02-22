@@ -12,7 +12,7 @@
   <script src="js/script.js"></script>
   <div id="container" class="bar">
         <div class="bar-launcher">
-          <h1 class="pointer">󰣇</h1>
+          <h1 onclick="RofiLauncher()" class="pointer">󰣇</h1>
           <a>󰇙</a>
           <p id="w1" onclick="changeTo1()" class="switch balls pointer">󰮯</p>
           <p id="w2" onclick="changeTo2()" class="switch balls pointer">󰊠</p> 
@@ -33,6 +33,10 @@
           <p id="date" class="small_text pointer">01:28 am</p>
           <a>󰇙</a>
           <h4 class="power pointer">󰐥</h4>
+        </div>
+        <div id="launcher" class="hidden rofi-laucnher">
+          <div class="rofi-search-bar"></div>
+          <img src="../../images/cr-rofi.jpg">
         </div>
       </div>
       <img id="body-image" src="../images/firefox.png">
