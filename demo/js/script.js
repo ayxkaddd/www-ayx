@@ -85,5 +85,5 @@ function randomWall() {
     var whichImage = Math.round(Math.random()*(p-1));
     var img = "url("+Images[whichImage]+");";
     console.log(img)
-    document.body.style.background = 'url('+Images[whichImage]+');';
+    document.body.style.background = Images[whichImage];
 }

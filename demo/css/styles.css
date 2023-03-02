@@ -136,7 +136,7 @@ img {
 .rofi-laucnher {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     height: 650px;
     width: 340px;
     position: absolute;
@@ -156,12 +156,11 @@ img {
 
 
 .rofi-search-bar {
-    /* left: 50%; */
-    /* align-items: center; */
+    top: 100%;
     height: 50px;
     width: 50%;
-    background-color: #1f2329;
-    opacity: 0.6;
-    border-radius: 5px;
-    margin: auto;
+    background-color: red;
+    /* opacity: 0.6; */
+    border-radius: 15px;
+    /* margin: auto; */
 }
